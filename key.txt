@@ -1,0 +1,9 @@
+bdb993ea4a71d5e7d9d20014df33fb5f
+
+fetch("https://api.nomics.com/v1/currencies/ticker?key=your-key-here&ids=BTC,ETH,XRP&interval=1d,30d&convert=EUR&per-page=100&page=1")
+  .then(response => response.json())
+  .then(data => console.log(data))
+
+"https://api.nomics.com/v1/currencies/ticker?key=bdb993ea4a71d5e7d9d20014df33fb5f&ids=BTC,ETH,AAVE&interval=1d,30d,365d"
+
+"https://api.nomics.com/v1/currencies?key=bdb993ea4a71d5e7d9d20014df33fb5f&ids=BTC&attributes=id,name,logo_url,description,reddit_url"
